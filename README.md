@@ -19,12 +19,21 @@
 
 ## 📂 Project Structure
 
-```text
-Food-Rescue-AI/
-├── static/                 # CSS, JavaScript, and static assets
-├── templates/              # HTML Jinja2 templates
-├── app.py                  # Main Flask application & routes
-├── model.py                # Data processing & analytics logic
-├── inventory_history.db    # SQLite database for inventory tracking
-├── requirements.txt        # Python dependencies
-└── Procfile                # Render/Gunicorn deployment configuration
+- `static/` — CSS, JavaScript, and static assets
+- `templates/` — HTML Jinja2 templates
+- `app.py` — Main Flask application & routes
+- `model.py` — Data processing & analytics logic
+- `inventory_history.db` — SQLite database for inventory tracking
+- `requirements.txt` — Python dependencies
+- `Procfile` — Render/Gunicorn deployment configuration
+
+## ⚙️ Local Installation & Setup
+
+1. **Clone the repository:** `git clone https://github.com/thorf1nx/Food-Rescue-AI.git && cd Food-Rescue-AI`
+2. **Create and activate virtual environment:** `python -m venv venv` (Windows: `venv\Scripts\activate` | macOS/Linux: `source venv/bin/activate`)
+3. **Install dependencies:** `pip install -r requirements.txt`
+4. **Run the application:** `python app.py` and open `http://127.0.0.1:5000`
+
+## 👤 Author
+
+**Ibrahim Balayev** — GitHub: [@thorf1nx](https://github.com/thorf1nx)
